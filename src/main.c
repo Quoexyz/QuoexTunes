@@ -42,7 +42,7 @@ int main(void) {
 
     player_init();
 
-    win = SDL_CreateWindow("AuraTunes", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, W, H, 0);
+    win = SDL_CreateWindow("QuoexTunes", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, W, H, 0);
     ren = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED);
     tex = SDL_CreateTexture(ren, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, W, H);
     SDL_SetTextureBlendMode(tex, SDL_BLENDMODE_BLEND);
