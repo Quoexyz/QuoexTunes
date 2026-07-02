@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12.4)
-project(AuraTunes C CXX)
+project(QuoexTunes C CXX)
 
 # Set the correct FreeRTOS port for your system (e.g., Posix for WSL)
 set(FREERTOS_PORT GCC_POSIX CACHE STRING "Port for FreeRTOS on Posix environment")
