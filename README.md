@@ -1,2 +1,3 @@
 # QuoexTunes
 Another music player, Still in heavy development...
+![GUI](./GUI.PNG)
